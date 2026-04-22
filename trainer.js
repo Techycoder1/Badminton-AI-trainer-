@@ -555,4 +555,3 @@ document.getElementById('btn-again').addEventListener('click', ()=>{
 document.addEventListener('keydown', e => {
   if (e.key==='Escape') document.getElementById('btn-stop').click()
 })
-</script>
