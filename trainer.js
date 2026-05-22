@@ -577,11 +577,7 @@ document.getElementById('btn-again').addEventListener('click', ()=>{
   centerX=null; centerY=null; hipX=null; hipY=null
   smoothHipX=null; smoothHipY=null; smoothFeetX=null; smoothFeetY=null
   // Check limit
-  if (!AUTH.canStartSession()) {
-    document.getElementById('lock-overlay').classList.remove('hidden')
-  } else {
-    setupScreen.classList.add('active')
-  }
+ setupScreen.classList.add('active')
 })
 
 document.addEventListener('keydown', e => {
